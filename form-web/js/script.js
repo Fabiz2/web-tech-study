@@ -11,7 +11,11 @@ const lista = document.querySelector(".lista")
 button.addEventListener("click", (event) => {
     event.preventDefault();
     
-    console.log(nome.value)
+   const inputValue = nome.value;
+   const templateHTML = `<li>${inputValue}</li>`; 
     //incluir itens no HTML
-    
-})
+    lista.innerHTML += templateHTML;
+
+    //limpando campo
+    nome.value = "";
+});
