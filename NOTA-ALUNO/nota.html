@@ -11,11 +11,15 @@
         <form>
             <article class="form-control">
                 <label for="nota">Digite a nota do aluno</label>
-                <input type="number" min="0" id="nota"/>
+                <input type="number" min="0" max="10" id="nota"/>
             </article>
 
-            <button id="verifica-nota">Verificar nota</button>
+            <button id="verifica-nota" onclick="resultadoNotaClick(event)">Verificar nota</button>
+
+            <div id="resultado"></div>
         </form>
     </main>
+
+    <script src="./js/nota.js"></script>
 </body>
 </html>
