@@ -17,4 +17,6 @@ salvarBtn.addEventListener("click", function(event){
 
     //limpar campo apos salvar
     campo.value = "";
+
+    carregarValoreSalvos();
 })
