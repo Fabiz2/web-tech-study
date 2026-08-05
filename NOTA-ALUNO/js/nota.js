@@ -2,12 +2,12 @@
 const inputNota = document.getElementById("nota");
 const resultado = document.getElementById("resultado");
 const message = document.getElementById("message");
+const nome = document.getElementById("nome");
 
 function resultadoNotaClick(event){
     event.preventDefault();
 
     const inputNotaValue = inputNota.value;
-
 
     //Validação
     if(inputNotaValue == ""){
@@ -23,10 +23,8 @@ function resultadoNotaClick(event){
         resultado.innerHTML = "Reprovado"
     }
     
-    
     console.log(inputNotaValue);
     
-
     inputNotaValue = "";
 
 }
