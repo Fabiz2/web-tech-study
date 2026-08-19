@@ -3,6 +3,7 @@ import Card from "./Components/Card"
 import Footer from "./Components/Footer"
 import Banner from "./Components/Banner"
 import ImgCard from "./Components/ImgCard"
+import Informacao from "./Components/Informacao"
   
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
     <Header title="Introdução React" />
 
     {/* <ImgCard title="New Lorem Ipsum"/> */}
-    <ImgCard />  
+    <ImgCard caption="copo"/>  
 
     <Banner> 
       <h1>Bem-vindo ao meu site</h1>
@@ -23,6 +24,11 @@ function App() {
     </Banner>
 
     <Card/>
+
+    <Informacao title="Corinthians"> 
+      <p>Lorem Ipsum</p>
+    </Informacao>
+    
 
     <Footer title="Rodapé" />
       
