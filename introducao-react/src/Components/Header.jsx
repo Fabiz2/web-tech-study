@@ -1,9 +1,10 @@
-const Header = () => {
+const Header = (props) => {
 
     const headerStyle = {
         background: '#BEBEBE',
         padding: '20px',
-        textAlign: 'center'
+        textAlign: 'center',
+        borderBottom: '2px solid #696969' 
     }
 
     const titleStyle = {
@@ -14,7 +15,7 @@ const Header = () => {
     
     return (
         <header style={headerStyle}>
-            <h1 style={titleStyle}>Introdução React</h1>
+            <h1 style={titleStyle}>{props.title}</h1>
         </header>
     )
 }

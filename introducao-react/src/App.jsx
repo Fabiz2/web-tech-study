@@ -1,17 +1,31 @@
 import Header from "./Components/Header"
 import Card from "./Components/Card"
-
+import Footer from "./Components/Footer"
+import Banner from "./Components/Banner"
+import ImgCard from "./Components/ImgCard"
+  
 function App() {
 
   return (
     <>
-    <Header />
+    <Header title="Meu site" />
 
-    <Card />
+    <Header title="Lorem Ipsum" />
 
-    <footer>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-    </footer>
+    <Header title="Introdução React" />
+
+    {/* <ImgCard title="New Lorem Ipsum"/> */}
+    <ImgCard />  
+
+    <Banner> 
+      <h1>Bem-vindo ao meu site</h1>
+      <p>Aqui voce encontra as melhores ofertas!</p>
+    </Banner>
+
+    <Card/>
+
+    <Footer title="Rodapé" />
+      
     </>
   )
 }
