@@ -1,8 +1,8 @@
-import Header from "./Components/Header"
-import Card from "./Components/Card"
+import Header from "./Components/Header/index"
+import Card from "./Components/Card/Card"
 import Footer from "./Components/Footer"
-import Banner from "./Components/Banner"
-import ImgCard from "./Components/ImgCard"
+import Banner from "./Components/Banner/index"
+import ImgCard from "./Components/ImgCard/ImgCard"
 import Informacao from "./Components/Informacao"
   
 function App() {
