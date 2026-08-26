@@ -2,7 +2,7 @@ import "./ImgCard.css"
 
 // import ImgCard from "../assets/img-card-2.jpg"
 
-import ImageCard from "../assets/img-card-2.jpg"
+import ImageCard from "../../assets/img-card-2.jpg"
 
 const ImgCard = (props) => {
     return(

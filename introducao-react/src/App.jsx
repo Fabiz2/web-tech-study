@@ -1,19 +1,20 @@
 import Header from "./Components/Header/index"
-import Card from "./Components/Card/Card"
+import Card from "./Components/Card/index"
 import Footer from "./Components/Footer"
 import Banner from "./Components/Banner/index"
-import ImgCard from "./Components/ImgCard/ImgCard"
-import Informacao from "./Components/Informacao"
+import ImgCard from "./Components/ImgCard/index"
+import Count from "./Components/Count/index"
+import Box from "./Components/Box/index"
   
 function App() {
 
   return (
     <>
-    <Header title="Meu site" />
-
-    <Header title="Lorem Ipsum" />
-
     <Header title="Introdução React" />
+
+    <Count/>
+
+    <Box/>
 
     {/* <ImgCard title="New Lorem Ipsum"/> */}
     <ImgCard caption="copo"/>  
@@ -24,10 +25,6 @@ function App() {
     </Banner>
 
     <Card/>
-
-    <Informacao title="Corinthians"> 
-      <p>Lorem Ipsum</p>
-    </Informacao>
     
 
     <Footer title="Rodapé" />
