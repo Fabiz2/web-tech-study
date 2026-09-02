@@ -5,11 +5,14 @@ import Banner from "./Components/Banner/index"
 import ImgCard from "./Components/ImgCard/index"
 import Count from "./Components/Count/index"
 import Box from "./Components/Box/index"
+import Gormit from "./Components/Gormit/index"
   
 function App() {
 
   return (
     <>
+    <Gormit/>
+
     <Header title="Introdução React" />
 
     <Count/>

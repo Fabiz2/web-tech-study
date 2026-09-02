@@ -1,0 +1,22 @@
+.gormit-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.gormit {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 15px;
+    padding: 20px;
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgb(128, 126, 126);
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}   
