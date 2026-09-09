@@ -1,0 +1,34 @@
+.header {
+    background-color: #828a92;
+    padding: 20px;
+    border-bottom: 2px solid #e9ecef;
+    border-radius: 10px;
+    margin: 10px;
+  }
+
+ .header img{
+    height: 10%;
+    width: 15%;
+  }
+  
+  .title-container {
+    max-width: 1000px;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .title {
+    font-size: 28px;
+    margin: 0;
+    color: #000;
+    text-align: left;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #fff;
+    text-align: left;
+  }
+
