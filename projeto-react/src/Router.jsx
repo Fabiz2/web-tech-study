@@ -4,6 +4,7 @@ import Sobre from "./Pages/Sobre"
 import NotFound from "./Pages/NotFound"
 import Nav from "./components/Nav"
 import FAQ from "./Pages/FAQ"
+import Usuario from "./Pages/Usuarios"
 
 export default function Router() {
   return (
@@ -14,6 +15,7 @@ export default function Router() {
             <Route path="/sobre" element={<Sobre/>}/>
             <Route path="*" element={<NotFound/>} />
             <Route path='/FAQ' element={<FAQ/>}/>
+            <Route path='/usuarios' element={<Usuario/>}/>
         </Routes>
     </BrowserRouter>
   )
