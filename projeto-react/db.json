@@ -1,7 +1,29 @@
 {
   "usuarios": [
-     { "nome": "João Silva", "telefone": "11999990001", "email": "joao@outlook.com" },
-     { "nome": "Caio", "telefone": "44444444", "email": "joao@outlook.com" }
+    {
+      "nome": "João Silva",
+      "telefone": "11999990001",
+      "email": "joao@outlook.com",
+      "id": "wD_Z1RRZoQg"
+    },
+    {
+      "nome": "Caio",
+      "telefone": "44444444",
+      "email": "joao@outlook.com",
+      "id": "c78QInLbNGM"
+    },
+    {
+      "nome": "fabricio",
+      "telefone": "11998866555",
+      "email": "fabricio@email.com",
+      "id": "Vodp77ASITg"
+    },
+    {
+      "nome": "anderson",
+      "telefone": "11944556611",
+      "email": "anderson@email.com",
+      "id": "opAn6dj0kTc"
+    }
   ],
   "faq": [
     {
@@ -19,5 +41,6 @@
       "pergunta": "Posso usar JSON Server em produção?",
       "resposta": "JSON Server é ótimo para desenvolvimento ..."
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
