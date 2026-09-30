@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { toast, ToastContainer } from 'react-toastify';
 import "../../../node_modules/react-toastify/dist/ReactToastify.css"
+import "./Cadastro.css"
 
 export default function index() {
     //estado para armazenar os dados do formulario
@@ -58,17 +59,17 @@ export default function index() {
 
                 <article className='form-control'>
                     <label htmlFor="nome">Nome</label>
-                    <input type="text" name='nome' value={formData.nome} onChange={handleChange} />
+                    <input type="text" name='nome' placeholder='Nome' value={formData.nome} onChange={handleChange} />
                 </article>
 
                 <article className='form-control'>
                     <label htmlFor="telefone">Telefone</label>
-                    <input type="text" name='telefone' value={formData.telefone} onChange={handleChange} />
+                    <input type="text" name='telefone' placeholder='Telefone' value={formData.telefone} onChange={handleChange} />
                 </article>
 
                 <article className='form-control'>
                     <label htmlFor="email">E-mail</label>
-                    <input type="text" name='email' value={formData.email} onChange={handleChange}/>
+                    <input type="text" name='email' placeholder='E-mail' value={formData.email} onChange={handleChange}/>
                 </article>
 
                 <button type='submit'>Cadastrar</button>

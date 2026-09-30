@@ -1,0 +1,33 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border: solid 1px;
+    padding: 10px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 10px 0 10px 0;
+}
+
+input{
+    padding: 10px;
+    border: none;
+    background-color: #d6d4d4;
+    border-radius: 5px;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1a1818;
+    color: #fff;
+}
+
