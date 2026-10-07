@@ -53,7 +53,7 @@ export default function index() {
 
 
     return (
-        <main className='container'>
+        <main className='container-cadastro'>
             <h1>Cadastro de usuários</h1>
             <form onSubmit={handleSubmit}>
 
