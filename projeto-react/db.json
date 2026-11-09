@@ -1,12 +1,6 @@
 {
   "usuarios": [
     {
-      "nome": "João Silva",
-      "telefone": "11999990001",
-      "email": "joao@outlook.com",
-      "id": "wD_Z1RRZoQg"
-    },
-    {
       "nome": "Caio",
       "telefone": "44444444",
       "email": "joao@outlook.com",
